@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+
+<head>
+
+<body>
+    <form method="POST">
+        {% csrf_token %}
+        {{sf}}
+        <br><br><br><br><br>
+        {{sub}}
+
+        
+        <input type="submit" value="save">
+
+    </form>
+
+</body>
+</head>
